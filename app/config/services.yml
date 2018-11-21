@@ -1,0 +1,4 @@
+services:
+    daily_calories:
+        class: AppBundle\Diary\Diary
+        arguments: ["@doctrine.orm.default_entity_manager"]
